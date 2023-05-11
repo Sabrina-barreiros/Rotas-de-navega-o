@@ -18,6 +18,7 @@ import { TasksComponent } from './tasks/tasks.component';
       {path:'about', component: AboutComponent},
       {path:'multi-table', component: MultTableComponent},
       {path:'multi-table/:n', component: MultTableDetailsComponent},
+      {path:'tasks', component: TasksComponent},
     ]),
   ],
   declarations: [RootComponent, HomeComponent, AboutComponent, MultTableComponent, MultTableDetailsComponent, NavbarComponent, TasksComponent],
