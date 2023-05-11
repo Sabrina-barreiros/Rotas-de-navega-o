@@ -8,6 +8,7 @@ import { MultTableComponent } from './mult-table/mult-table.component';
 import { MultTableDetailsComponent } from './mult-table-details/mult-table-details.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
+import { TimerService } from './timer.service';
 
 @NgModule({
   imports: [
@@ -20,5 +21,6 @@ import { RouterModule } from '@angular/router';
   ],
   declarations: [RootComponent, HomeComponent, AboutComponent, MultTableComponent, MultTableDetailsComponent, NavbarComponent],
   bootstrap: [RootComponent],
+  providers: [TimerService]
 })
 export class AppModule { }
