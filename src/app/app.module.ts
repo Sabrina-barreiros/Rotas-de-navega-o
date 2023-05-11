@@ -9,6 +9,7 @@ import { MultTableDetailsComponent } from './mult-table-details/mult-table-detai
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { TimerService } from './timer.service';
+import { TasksComponent } from './tasks/tasks.component';
 
 @NgModule({
   imports: [
@@ -19,7 +20,7 @@ import { TimerService } from './timer.service';
       {path:'multi-table/:n', component: MultTableDetailsComponent},
     ]),
   ],
-  declarations: [RootComponent, HomeComponent, AboutComponent, MultTableComponent, MultTableDetailsComponent, NavbarComponent],
+  declarations: [RootComponent, HomeComponent, AboutComponent, MultTableComponent, MultTableDetailsComponent, NavbarComponent, TasksComponent],
   bootstrap: [RootComponent],
   providers: [TimerService]
 })
